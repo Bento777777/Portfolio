@@ -4,177 +4,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--FONT AWESOME-->
+    <!--Fonte Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style/styles.css">
-    <title>Meu Portfolio</title>
+<!--final fonte Awesome-->
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Meu Portfólio</title>
 </head>
 <body>
-   <!--Heard--> 
-   <heard class="heard">
-      <a href="#" class="logo">Portfolio</a>
+    <!--Header-->
+    <header class="header">
+        <a href="#" class="logo">Portfólio</a>
 
-      <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-      <nav class="navbar">
-          <a href="#" class="active">Home</a>
-          <a href="#">Sobre</a>
-          <a href="#">Serviço</a>
-          <a href="#">Portfolio</a>
-          <a href="#">contato</a>
-      </nav>
-</heard>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
 
-<!--seção home - inicial-->
-<section class="home" id="home">
-    <div class="home-content">
-        <h3>Ola, Prazer! Eu Sou</h3>
-        <h1>Gabriel Bento</h1>
-        <h3>Sou Tambem um <span>Desenvolvedor Web</span></h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <div class="social-media">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="#"><i class="fa-solid fa-x"></i></a>
+    <!--Seção Home - Inicial-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, Prazer! Eu sou</h3>
+            <h1>Gabriel Bento</h1>
+            <h3>Sou também um <span class="multiple-text"></span></h3>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <a href="#" class="btn">Faça o Download do meu Curriculo</a>
         </div>
-        <a href="#" class="btn">faça o Downlod do meu curriculo</a>
-    </div>
-    <div class="home-img"><img src="img/Appeasing 03-Photoroom.png" alt="Meu profile"></div>
-</section>
+        <div class="home-img"><img src="/img/aboutpic.jpg" alt="Meu profile"></div>
+    </section>
 
-<!--SEÇAo SOBRE-->
-<section class="about" id="about">
-    <div class="about.img">
-        <img src="img/aboutpic.jpg" alt="">
-    </div>
-
-    <div class="about-content">
-        <h2 class="heading">Sobre <span>Mim</span></h2>
-        <h3>Desenvolvedor Frontend</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <a href="#" class="btn">Saiba mais</a>
-    </div>
-</section>
-
-<!--SEÇAO SERVIÇOS-->
-<section class="services" id="services">
-    <h2 class="heading"> Meus<span>Serviços</span></h2>
-
-<div class="services-container">
-    <div class="services-box">
-        <i class="fa-solid fa-palette"></i>
-        <h3>Desenvolvimento Web</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <a href="#" class="btn">Saiba mais</a>
-    </div>
-
-    <div class="services-box">
-        <i class="fa-brands fa-android"></i>
-        <h3>UI/UX</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <a href="#" class="btn">Saiba mais</a>
-    </div>
-
-    <div class="services-box">
-        <i class="fa-solid fa-code"></i>
-        <h3>Desenvolvimento De Apps</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <a href="#" class="btn">Saiba mais</a>
-    </div>
-</div>
-
-</section>
-
-<!--SEÇAO SERVIÇOS-->
-<section class="portfolio" id="portfolio">
-    <div class="potfolio-box">
-        <img src="img/img 1.jpg" alt="">
-        <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-    </div>
-
-    <div class="potfolio-box">
-        <img src="img/img 2.jpg" alt="">
-        <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-    </div>
-
-    <div class="potfolio-box">
-        <img src="img/img 3.jpg" alt="">
-        <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-    </div>
-
-    <div class="potfolio-box">
-        <img src="img/img 4.jpg" alt="">
-        <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-    </div>
-
-    <div class="potfolio-box">
-        <img src="img/img 5.jpg" alt="">
-        <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-    </div>
-
-    <div class="potfolio-box">
-        <img src="img/img 6.jpg" alt="">
-        <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <i class="fa-solid fa-up-right-from-square"></i>
-        </div>
-    </div>
-</section>
-
-<!--SEÇAO DE CONTATO-->
-<section class="contact" id="contact">
-    <h2 class="heading">Fale <spam>Comigo</spam></h2>
-
-    <form action="#">
-        <div class="input-box">
-            <input type="text" placeholder="Nome Completo">
-            <input type="email" placeholder="Seu emal">
+    <!--SEÇÃO SOBRE-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/img/aboutpic.jpg" alt=""> 
         </div>
 
-<div class="input-box">
-    <input type="nuber" placeholder="Celular">
-    <input type="text" placeholder="Email de Contato">
-</div>
-<textarea name="" id="" cols="30" rows="10" placeholder="Deixe sua mensagem:"></textarea>
-<input type="submit" value="Enviar Mensagem" class="btn">
-    </form>
-</section>
+        <Div class="about-content">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <h3>Desenvolvedor Frontend</h3>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </Div>
+    </section>
+
+    <!--SEÇÃO SERVIÇOS-->
+    <section class="services" id="services">
+        <h2 class="heading"> Meus<span> Serviços</span></h2> 
+
+        <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-palette"></i>
+            <h3>Desenvolvimento Web</h3>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-brands fa-android"></i>
+            <h3>UI/UX</h3>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Desenvolvimento De Apps</h3>
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+        </div>
+
+    </section>
+    <!--SEÇÃO PORTIFOLIO-->
+    <section class="portifolio" id="portifolio">
+        <h2 class="heading">Ultimos<span>Projetos</span></h2>
+
+        <div class="portifolio-container">
+        <div class="portifolio-box">
+            <img src="/img/img 1.jpg" alt="">
+            <Div class="portifolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+
+            </Div>
+        </div>
+
+        <div class="portifolio-box">
+            <img src="/img/img 2.jpg" alt="">
+            <Div class="portifolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+                
+            </Div>
+        </div>
+
+        <div class="portifolio-box">
+            <img src="/img/img 3.png" alt="">
+            <Div class="portifolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+                
+            </Div>
+        </div>
+
+        <div class="portifolio-box">
+            <img src="/img/img 4.jpg" alt="">
+            <Div class="portifolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+                
+            </Div>
+        </div>
 
 
+        <div class="portifolio-box">
+            <img src="/img/img 5.png" alt="">
+            <Div class="portifolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+                
+            </Div>
+        </div>
 
-<!--SEÇAO RODAPE-->
-<footer class="footer">
-    <div class="footer-text">
-        <p>Copyringht &copy; 2024 por @GabrielBento | todos os direitos resevados</p>
+        <div class="portifolio-box">
+            <img src="/img/img 6.jpg" alt="">
+            <Div class="portifolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+                
+            </Div>
+        </div>
     </div>
-    <div class="footer-icontop">
-        <a href="#home"></a>
-        <i class="fa-solid fa-angle-up"></i>
-    </div>
-</footer>
+    </section>
+    <!--SEÇÃO DE CONTATO-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Fale <span>Comigo</span></h2>
 
-<script src="js/main.js"></script>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="email" placeholder="Seu E-mail">
+            </div>
+        
+            <div class="input-box">
+                <input type="number" placeholder="Celular">
+                <input type="text" placeholder="E-mail de Contato">
+            </div>
+            <textarea name="" id="" cols="30" rows="10"
+             placeholder="Deixe sua mensagem"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="btn">
+        </form>
+    </section>
+
+    
+    <!--SEÇÃO RODAPÉ-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 por @gabriel_bento | Todos os direitos reservados.</p>
+        </div>
+        <Div class="footer-iconTop">
+            <a href="#home">
+            <i class="fa-solid fa-angle-up"></i></a>
+        </Div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="JS/main.js"></script>
 </body>
 </html>
